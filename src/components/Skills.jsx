@@ -8,7 +8,7 @@ const Skills = () => {
       id: 1,
       title: "Frontend & Design",
       icon: <Layout className="text-blue-400 mb-6" size={36} />,
-      skills: ["React", "JavaScript (ES6+)", "Tailwind CSS", "HTML5 / CSS3", "Canva Design"]
+      skills: ["React", "JavaScript ", "Tailwind CSS", "HTML / CSS", "Canva Design"]
     },
     {
       id: 2,
