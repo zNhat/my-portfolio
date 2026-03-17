@@ -14,7 +14,7 @@ const Skills = () => {
       id: 2,
       title: "Backend",
       icon: <Server className="text-purple-400 mb-6" size={36} />,
-      skills: ["PHP", "Node.js", "Express", "RESTful APIs", "Authentication"]
+      skills: ["Java", "SpringBoot", "PHP", "Node.js", "Express", "C#", "Python"]
     },
     {
       id: 3,

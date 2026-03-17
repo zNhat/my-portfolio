@@ -1,31 +1,31 @@
 import React from 'react';
 
 const Experience = () => {
-  // Dữ liệu dự án theo từng năm
+  // Dữ liệu dự án đã được đồng bộ với phần Projects (Sử dụng Tiếng Anh cho chuyên nghiệp)
   const experiences = [
     {
       id: 1,
-      year: "2026",
-      title: "Employee Management System",
+      year: "2024",
+      title: "Smart Bus Tracking System",
       type: "Full-Stack Development",
-      description: "Phát triển hệ thống quản lý nhân sự nội bộ hoàn chỉnh. Xử lý kiến trúc cơ sở dữ liệu an toàn, xây dựng các chức năng thêm, sửa, xóa (CRUD) và quản lý phân quyền chặt chẽ.",
-      tech: ["PHP", "MySQL", "Tailwind CSS", "JavaScript"]
+      description: "A real-time school bus tracking platform designed to enhance student safety. Features live GPS monitoring, automated notifications for parents, and an administrative dashboard for route management.",
+      tech: ["React", "Node.js", "Google Maps API", "Tailwind CSS"]
     },
     {
       id: 2,
-      year: "2025",
-      title: "Media & Visual Effects Tools",
-      type: "Frontend Integration",
-      description: "Xây dựng giao diện tương tác và tích hợp công cụ thiết kế. Xử lý các tác vụ liên quan đến hiệu ứng đồ họa (như tạo viền chatbot, tách nền video) mang lại trải nghiệm mượt mà cho người dùng.",
-      tech: ["React", "Canva Design", "CSS Animations"]
+      year: "2023",
+      title: "Hospital Management",
+      type: "Software Engineering",
+      description: "A comprehensive hospital management application streamlining daily healthcare operations. Features include patient registration, doctor appointment scheduling, and integrated billing systems.",
+      tech: ["C#", ".NET", "SQL Server", "WinForms"]
     },
     {
       id: 3,
-      year: "2024",
-      title: "E-Commerce Web Application",
-      type: "Web Development",
-      description: "Tham gia xây dựng nền tảng thương mại điện tử, tối ưu hóa giao diện người dùng và cải thiện tốc độ tải trang. Kết nối API với hệ thống thanh toán và quản lý giỏ hàng.",
-      tech: ["Node.js", "Express", "RESTful API", "HTML/CSS"]
+      year: "2022",
+      title: "Chess Game with AI",
+      type: "AI & Game Development",
+      description: "A fully functional chess application developed in Python. It features an intuitive graphical interface, a local two-player mode (1v1), and a challenging single-player mode against an integrated AI opponent.",
+      tech: ["Python", "Pygame", "AI Algorithms", "Game Logic"]
     }
   ];
 
@@ -43,7 +43,7 @@ const Experience = () => {
         {/* Khung chứa Timeline */}
         <div className="relative">
           
-          {/* Đường gạch dọc xuyên suốt (Nằm giữa trên Desktop, nằm trái trên Mobile) */}
+          {/* Đường gạch dọc xuyên suốt */}
           <div className="absolute left-[15px] md:left-1/2 top-0 bottom-0 w-px bg-gradient-to-b from-blue-500/50 via-cyan-500/50 to-transparent transform md:-translate-x-1/2"></div>
 
           {/* Vòng lặp hiển thị các dự án */}
