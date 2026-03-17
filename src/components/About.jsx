@@ -60,13 +60,13 @@ const About = () => {
               {/* Box 2 */}
               <div className="bg-slate-800/30 border border-slate-700/50 p-4 rounded-xl hover:bg-slate-800/50 transition-colors">
                 <p className="text-cyan-400 font-mono text-xs mb-1 uppercase tracking-wider">Experience</p>
-                <p className="text-slate-200 font-semibold">2+ Years</p>
+                <p className="text-slate-200 font-semibold">3+ Years</p>
               </div>
 
               {/* Box 3 */}
               <div className="bg-slate-800/30 border border-slate-700/50 p-4 rounded-xl hover:bg-slate-800/50 transition-colors">
                 <p className="text-cyan-400 font-mono text-xs mb-1 uppercase tracking-wider">Focus</p>
-                <p className="text-slate-200 font-semibold">PHP & MySQL</p>
+                <p className="text-slate-200 font-semibold">Java</p>
               </div>
 
               {/* Box 4 */}
