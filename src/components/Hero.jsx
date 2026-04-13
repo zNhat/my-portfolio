@@ -24,7 +24,7 @@ const Hero = () => {
           onClick={() => scrollToSection('home')}
           className="text-blue-400 font-mono font-bold text-2xl tracking-wide cursor-pointer"
         >
-          {'<AC/>'}
+          {''}
         </div>
         
         <ul className="hidden md:flex space-x-8 text-sm font-medium text-slate-400">
@@ -41,7 +41,7 @@ const Hero = () => {
       <main className="flex-1 flex flex-col items-center justify-center text-center px-4 z-10 pb-20">
         
         <p className="font-mono text-cyan-400 mb-6 text-sm tracking-widest opacity-90">
-          // welcome to my portfolio
+          welcome to my portfolio
         </p>
 
         <h1 className="text-5xl md:text-7xl font-bold mb-4 tracking-tight text-white">
